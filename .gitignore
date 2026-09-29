@@ -1,0 +1,26 @@
+# 会话与凭据：永远不要提交
+xmu-cookies.json
+*.cookies.json
+cookies*.txt
+cookies/
+creds*.md
+.env
+
+# 抓下来的课件、答卷、公告附件等材料，不入库
+courseware/
+downloads/
+attachments/
+manifest.json
+*-review.md
+*-复盘.md
+
+# 本地探测脚本
+scratch/
+tmp/
+*.log
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
